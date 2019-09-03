@@ -1,0 +1,39 @@
+.inputSubmit{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.inputBox{
+  text-align: center;
+  font-size: 30px;
+  font-weight: lighter;
+  height: 50px;
+  width: 200px;
+
+}
+
+.submitButton{
+  margin-top: 25px;
+  padding: 15px 30px;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: lighter;
+  outline: none;
+}
+
+.boxOne{
+  display: flex;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  margin: 30px;
+}
+
+#allBoxes{
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}

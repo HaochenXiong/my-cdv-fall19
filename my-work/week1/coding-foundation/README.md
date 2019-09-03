@@ -1,6 +1,6 @@
 ## Description
 
-##### Making a numerical input and pressing the sumbit button create boxes (div elements) on the page.
+#### Making a numerical input and pressing the sumbit button create boxes (div elements) on the page.
 
 ## The difficulties I had
 

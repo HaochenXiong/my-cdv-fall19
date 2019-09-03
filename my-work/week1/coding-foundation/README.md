@@ -11,5 +11,5 @@
 
 * Never say never
 * Code step by step
-* The magic of a <div>
+* The magic of a '<div>
 * New javascript function like createElement, appendChild, and addEventListener

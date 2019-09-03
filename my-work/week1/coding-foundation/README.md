@@ -4,7 +4,7 @@
 
 ## The difficulties I had
 
-* Forget many coding skills I learned
+* Forget many coding skills I learned before
 * Have no ideas which part I should code first
 
 ## What I learned

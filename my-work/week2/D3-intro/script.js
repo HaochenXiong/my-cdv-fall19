@@ -32,30 +32,6 @@ function gotData(newData){
                                         .attr("r", 20)
                                         .attr("fill", chosenColor)
   ;
-
-
-
-  //
-  // // current selction <div id="viz-container">
-  // viz.attr("height", 500);
-  //
-  // let myCircle = viz.append("rect")
-  //               .attr("x", 200)
-  //               .attr("y", 100)
-  //               .attr("width", 400)
-  //               .attr("height", 200)
-  // ;
-  //
-  // myCircle.attr("fill", "pink");
-
-    // let myData = [3, 5, 6, 8, 9]
-    // for (var i = 0; i < newData.length; i++) {
-    //   let momentNumber = newData[i].Moment;
-    //   let colorType = newData[i].color;
-    //   console.log(momentNumber);
-    //   console.log(colorType);
-    // }
-// }
 }
 
 d3.json("data.json").then(gotData)

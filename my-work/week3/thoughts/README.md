@@ -1,4 +1,4 @@
-## Reflection on The Minority Report
+## Associations on The Minority Report
 
 ### 1 Input Suggestion
 #### No matter it is our digitial keyboard on our phones or the search box in Chrome, the words we have already typed in can be the data for them to predict a full version. As long as we see the suggestions, we then act upon on them by simply pressing enter or clicking the mouse.

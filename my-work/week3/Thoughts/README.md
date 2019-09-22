@@ -7,4 +7,4 @@
 #### For these apps, data will be used to predict the weather in the coming days or weeks. A common scenario is that you open a weather app when you wake up in order to check the weather of that day. Then you decide what you are going to wear or what you are going to take, such as an unbrella, according to the inforamtion you get from the app.
 
 ### 3 Video Recommendation
-#### Youtube or Bilibili (Chinese video app, mostly for a younger audience) can collect the data of what you seen to predict what you want to see in the future. Those recommended videos will be shown in the home page or a certian recommendation page. They somehow satisfy your taste and in most situations you will click and watch.
+#### Youtube or Bilibili (Chinese video app, mostly for a younger audience) can collect the data of what you seen to predict what you want to see in the future. Those recommended videos will be shown on the home page or a certian recommendation page. They somehow satisfy your taste and in most situations you will click and watch.

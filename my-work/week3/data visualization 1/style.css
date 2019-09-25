@@ -1,0 +1,9 @@
+body{
+  width, height: 100%;
+  margin: 0;
+}
+
+#viz{
+  margin-left: 80px;
+  background-color: white;
+}

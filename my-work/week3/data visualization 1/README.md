@@ -8,6 +8,6 @@
 * ordinate - date (from 11th to 15th)
 * color - type of notifications
 
-### For Small Rect below:
+### For Small Rects below:
 
-* color - apps 
+* color - apps

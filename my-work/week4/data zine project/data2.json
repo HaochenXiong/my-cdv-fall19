@@ -1,0 +1,51 @@
+[
+  {
+    "date": 11,
+    "Recommendation": 2,
+    "Information": 4,
+    "News": 6,
+    "Stories": 0
+  },
+  {
+    "date": 12,
+    "Recommendation": 1,
+    "Information": 3,
+    "News": 2,
+    "Stories": 0
+  },
+  {
+    "date": 13,
+    "Recommendation": 1,
+    "Information": 2,
+    "News": 4,
+    "Stories": 1
+  },
+  {
+    "date": 14,
+    "Recommendation": 1,
+    "Information": 1,
+    "News": 1,
+    "Stories": 2
+  },
+  {
+    "date": 15,
+    "Recommendation": 0,
+    "Information": 2,
+    "News": 3,
+    "Stories": 1
+  },
+  {
+    "date": 16,
+    "Recommendation": 0,
+    "Information": 3,
+    "News": 6,
+    "Stories": 1
+  },
+  {
+    "date": 17,
+    "Recommendation": 0,
+    "Information": 1,
+    "News": 4,
+    "Stories": 2
+  }
+]

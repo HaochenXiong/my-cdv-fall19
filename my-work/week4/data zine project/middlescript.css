@@ -1,0 +1,13 @@
+.yaxis path{
+  display: none;
+}
+
+.yaxis {
+  font-family: Courier New;
+  font-size: 20px;
+}
+
+.xaxis{
+  font-family: Courier New;
+  font-size: 20px;
+}

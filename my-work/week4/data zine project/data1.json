@@ -1,0 +1,326 @@
+[
+  {
+    "date" : 11,
+    "Minute" : 1,
+    "app" : "Weibo",
+    "type" : "Recommendation"
+  },
+  {
+    "date" : 11,
+    "Minute" : 3,
+    "app" : "Zhihu",
+    "type" : "Information"
+  },
+  {
+    "date" : 11,
+    "Minute" : 5,
+    "app" : "Taobao",
+    "type" : "Recommendation"
+  },
+  {
+    "date" : 11,
+    "Minute" : 13,
+    "app" : "Huxiu",
+    "type" : "News"
+  },
+  {
+    "date" : 11,
+    "Minute" : 15,
+    "app" : "Dongfang Caifu",
+    "type" : "News"
+  },
+  {
+    "date" : 11,
+    "Minute" : 27,
+    "app" : "Weibo",
+    "type" : "Information"
+  },
+  {
+    "date" : 11,
+    "Minute" : 29,
+    "app" : "Dongfang Caifu",
+    "type" : "News"
+  },
+  {
+    "date" : 11,
+    "Minute" : 34,
+    "app" : "Weibo",
+    "type" : "News"
+  },
+  {
+    "date" : 11,
+    "Minute" : 38,
+    "app" : "Dongfang Caifu",
+    "type" : "Information"
+  },
+  {
+    "date" : 11,
+    "Minute" : 47,
+    "app" : "Huxiu",
+    "type" : "News"
+  },
+  {
+    "date" : 11,
+    "Minute" : 54,
+    "app" : "Dongfang Caifu",
+    "type" : "News"
+  },
+  {
+    "date" : 11,
+    "Minute" : 56,
+    "app" : "Weibo",
+    "type" : "Information"
+  },
+  {
+    "date" : 12,
+    "Minute" : 1,
+    "app" : "Tao Piaopiao",
+    "type" : "Recommendation"
+  },
+  {
+    "date" : 12,
+    "Minute" : 5,
+    "app" : "Zhihu",
+    "type" : "Information"
+  },
+  {
+    "date" : 12,
+    "Minute" : 19,
+    "app" : "Weibo",
+    "type" : "Information"
+  },
+  {
+    "date" : 12,
+    "Minute" : 22,
+    "app" : "Dongfang Caifu",
+    "type" : "News"
+  },
+  {
+    "date" : 12,
+    "Minute" : 34,
+    "app" : "Dongqiu Di",
+    "type" : "Information"
+  },
+  {
+    "date" : 12,
+    "Minute" : 52,
+    "app" : "Dongfang Caifu",
+    "type" : "News"
+  },
+  {
+    "date" : 13,
+    "Minute" : 1,
+    "app" : "Weibo",
+    "type" : "News"
+  },
+  {
+    "date" : 13,
+    "Minute" : 2,
+    "app" : "Weibo",
+    "type" : "Stories"
+  },
+  {
+    "date" : 13,
+    "Minute" : 5,
+    "app" : "Zhihu",
+    "type" : "Information"
+  },
+  {
+    "date" : 13,
+    "Minute" : 10,
+    "app" : "Xiao Hong Shu",
+    "type" : "Stories"
+  },
+  {
+    "date" : 13,
+    "Minute" : 11,
+    "app" : "Dongfang Caifu",
+    "type" : "Information"
+  },
+  {
+    "date" : 13,
+    "Minute" : 17,
+    "app" : "Dongqiu Di",
+    "type" : "Recommendation"
+  },
+  {
+    "date" : 13,
+    "Minute" : 18,
+    "app" : "Wangyi Xinwen",
+    "type" : "News"
+  },
+  {
+    "date" : 13,
+    "Minute" : 38,
+    "app" : "Weibo",
+    "type" : "News"
+  },
+  {
+    "date" : 13,
+    "Minute" : 58,
+    "app" : "Dongqiu Di",
+    "type" : "News"
+  },
+  {
+    "date" : 14,
+    "Minute" : 1,
+    "app" : "Tao Piaopiao",
+    "type" : "Recommendation"
+  },
+  {
+    "date" : 14,
+    "Minute" : 4,
+    "app" : "Zhihu",
+    "type" : "Information"
+  },
+  {
+    "date" : 14,
+    "Minute" : 33,
+    "app" : "Dongqiu Di",
+    "type" : "Stories"
+  },
+  {
+    "date" : 14,
+    "Minute" : 51,
+    "app" : "Weibo",
+    "type" : "News"
+  },
+  {
+    "date" : 14,
+    "Minute" : 57,
+    "app" : "Weibo",
+    "type" : "Stories"
+  },
+  {
+    "date" : 15,
+    "Minute" : 6,
+    "app" : "Zhihu",
+    "type" : "Information"
+  },
+  {
+    "date" : 15,
+    "Minute" : 33,
+    "app" : "Dongfang Caifu",
+    "type" : "Information"
+  },
+  {
+    "date" : 15,
+    "Minute" : 48,
+    "app" : "Wangyi Xinwen",
+    "type" : "News"
+  },
+  {
+    "date" : 15,
+    "Minute" : 50,
+    "app" : "Weibo",
+    "type" : "Stories"
+  },
+  {
+    "date" : 15,
+    "Minute" : 57,
+    "app" : "Dongqiu Di",
+    "type" : "News"
+  },
+  {
+    "date" : 15,
+    "Minute" : 59,
+    "app" : "Dongqiu Di",
+    "type" : "News"
+  },
+  {
+    "date" : 16,
+    "Minute" : 1,
+    "app" : "Weibo",
+    "type" : "Stories"
+  },
+  {
+    "date" : 16,
+    "Minute" : 3,
+    "app" : "Zhihu",
+    "type" : "Information"
+  },
+  {
+    "date" : 16,
+    "Minute" : 12,
+    "app" : "Wangyi Xinwen",
+    "type" : "News"
+  },
+  {
+    "date" : 16,
+    "Minute" : 18,
+    "app" : "Wangyi Xinwen",
+    "type" : "News"
+  },
+  {
+    "date" : 16,
+    "Minute" : 16,
+    "app" : "Dongfang Caifu",
+    "type" : "Information"
+  },
+  {
+    "date" : 16,
+    "Minute" : 32,
+    "app" : "Dongfang Caifu",
+    "type" : "News"
+  },
+  {
+    "date" : 16,
+    "Minute" : 34,
+    "app" : "Dongqiu Di",
+    "type" : "News"
+  },
+  {
+    "date" : 16,
+    "Minute" : 52,
+    "app" : "Dongfang Caifu",
+    "type" : "News"
+  },
+  {
+    "date" : 16,
+    "Minute" : 58,
+    "app" : "Weibo",
+    "type" : "Information"
+  },
+  {
+    "date" : 17,
+    "Minute" : 43,
+    "app" : "Weibo",
+    "type" : "News"
+  },
+  {
+    "date" : 17,
+    "Minute" : 51,
+    "app" : "Weibo",
+    "type" : "Stories"
+  },
+  {
+    "date" : 17,
+    "Minute" : 59,
+    "app" : "Huxiu",
+    "type" : "News"
+  },
+  {
+    "date" : 17,
+    "Minute" : 38,
+    "app" : "Wangyi Xinwen",
+    "type" : "News"
+  },
+  {
+    "date" : 17,
+    "Minute" : 7,
+    "app" : "Zhihu",
+    "type" : "Stories"
+  },
+  {
+    "date" : 17,
+    "Minute" : 15,
+    "app" : "Dongfang Caifu",
+    "type" : "Information"
+  },
+  {
+    "date" : 17,
+    "Minute" : 56,
+    "app" : "Dongfang Caifu",
+    "type" : "News"
+  }
+]

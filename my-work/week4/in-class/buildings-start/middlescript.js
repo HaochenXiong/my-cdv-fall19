@@ -10,6 +10,7 @@ let viz = d3.select("#container")
 
 let xPadding = 10;
 let xScale = d3.scaleLinear().domain([0, 100]).range([xPadding, 2400 - xPadding]);
+
 function xPosition(d, i){
   return xScale(i);
 }

@@ -3,12 +3,13 @@ let h = 800;
 
 // for convenience
 let datafile = "data.json";
+let colors = ["Darkcyan", "MediumSlateBlue", "Plum", "SteelBlue", "PeachPuff", "DarkGray"];
 
 // function to retrieve only the data points
 // belonging to one step in time:
-function getStep(data, step){
+function getName(data, name){
   return data.filter(function(datapoint){
-    if(datapoint.step == step){
+    if(datapoint.name == name){
       return true;
     }else{
       return false;
@@ -23,15 +24,19 @@ let viz = d3.select("#container")
   .append('svg')
     .attr("width", w)
     .attr("height", h)
-    .style("background-color", "darkcyan")
+    .style("background-color", "Darkcyan")
 ;
+
+let dropdownButton = d3.select("#selects")
+  .append('select')
+  ;
 
 
 function gotData(incomingData){
   // checking out our data
   console.log(incomingData);
   // testing the filter function defined above
-  console.log(getStep(incomingData, 0));
+  console.log(getName(incomingData, "A"));
 
   let xDomain = d3.extent(incomingData, function(datapoint){
   return datapoint.x;
@@ -69,21 +74,19 @@ function gotData(incomingData){
   //Group that contains everything to do with our graph(aka the actual shapes)
   let vizgroup = viz.append("g").attr("class", "vizgroup");
 
-  let step = 1;
-  drawViz();
+//   let step = 1;
+  drawViz("A");
 
-  setInterval(function(){
-    step += 20;
-    drawViz();
-  }, 100);
-
-  function drawViz(){
-  let data = getStep(incomingData, step);
+//   setInterval(function(){
+//     step += 20;
+//     drawViz();
+//   }, 100);
+//
+  function drawViz(name){
+  let data = getName(incomingData, name);
   console.log(data);
 
-  let datagroups = vizgroup.selectAll(".datagroup").data(data, function(d){
-    return d.name;
-  })
+  let datagroups = vizgroup.selectAll(".datagroup").data(data, function(d){return d.step})
 
   let enteringDataGroup = datagroups.enter()
     .append("g")
@@ -93,24 +96,52 @@ function gotData(incomingData){
       .attr("r", 5)
       .attr("fill", "white")
   ;
-  enteringDataGroup.append("text")
-      .text(function(d){
-        return d.name;
-      })
-      .attr("x", 10)
-      .attr("y", 5)
-      .attr("fill", "white")
-      .attr("font-family", "sans-serif")
+  // enteringDataGroup.append("text")
+  //     .text(function(d){
+  //       return d.name;
+  //     })
+  //     .attr("x", 10)
+  //     .attr("y", 5)
+  //     .attr("fill", "white")
+  //     .attr("font-family", "sans-serif")
+
   enteringDataGroup.attr("transform", function(d, i){
     return "translate("+ xScale(d.x) + ", " + yScale(d.y) + ")"
   });
 
-  datagroups.transition().attr("transform", function(d, i){
+  datagroups.exit().remove();
+
+  datagroups.transition().duration(1000).attr("transform", function(d, i){
     return "translate("+ xScale(d.x) + ", " + yScale(d.y) + ")"
   });
 
 }
 
+// add the options to the button
+dropdownButton
+  .selectAll('myOptions')
+ 	.data(colors)
+  .enter()
+	.append('option')
+  .text(function (d) { return d; })
+  .attr("value", function (d) { return d; })
+
+function updateChart(myColor) {
+    viz
+      .transition()
+      .duration(1000)
+      .style("background-color", myColor)
+}
+
+// When the button is changed, run the updateChart function
+dropdownButton.on("change", function(d) {
+    var selectedOption = d3.select(this).property("value")
+    updateChart(selectedOption)
+});
+
+document.getElementById("buttonOne").addEventListener("click", function() {drawViz('A');});
+document.getElementById("buttonTwo").addEventListener("click", function() {drawViz('B');});
+document.getElementById("buttonThree").addEventListener("click", function() {drawViz('C');});
 
 }
 

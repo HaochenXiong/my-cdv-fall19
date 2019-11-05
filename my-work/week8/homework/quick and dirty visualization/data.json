@@ -1,0 +1,104 @@
+[
+  {
+    "name": "Iron Man",
+    "year": "2008",
+    "series": "Iron Man",
+    "revenue": "585.17"
+  },
+  {
+    "name": "Iron Man 2",
+    "year": "2010",
+    "series": "Iron Man",
+    "revenue": "623.93"
+  },
+  {
+    "name": "Iron Man 3",
+    "year": "2013",
+    "series": "Iron Man",
+    "revenue": "1214.81"
+  },
+  {
+    "name": "Captain America: The first Avenger",
+    "year": "2008",
+    "series": "Captain America",
+    "revenue": "370.57"
+  },
+  {
+    "name": "Thor",
+    "year": "2011",
+    "series": "Thor",
+    "revenue": "449.33"
+  },
+  {
+    "name": "Ant-Man",
+    "year": "2015",
+    "series": "Ant-Man",
+    "revenue": "519.31"
+  },
+  {
+    "name": "Ant-man and the Wasp",
+    "year": "2018",
+    "series": "Ant-Man",
+    "revenue": "622.47"
+  },
+  {
+    "name": "Thor: The Dark World",
+    "year": "2013",
+    "series": "Thor",
+    "revenue": "644.57"
+  },
+  {
+    "name": "Doctor Strange",
+    "year": "2016",
+    "series": "Doctor Strange",
+    "revenue": "677.36"
+  },
+  {
+    "name": "Captain Ameriaca: The winter Soldier",
+    "year": "2014",
+    "series": "Captain America",
+    "revenue": "714.26"
+  },
+  {
+    "name": "Guardians of the Galaxy",
+    "year": "2014",
+    "series": "Guardians",
+    "revenue": "733.33"
+  },
+  {
+    "name": "Thor: Ragnarok",
+    "year": "2017",
+    "series": "Thor",
+    "revenue": "850.32"
+  },
+  {
+    "name": "Guardians of the Galaxy Vol. 2",
+    "year": "2017",
+    "series": "Guardians",
+    "revenue": "863.73"
+  },
+  {
+    "name": "Spiderman: Homecoming",
+    "year": "2017",
+    "series": "Spiderman",
+    "revenue": "880.17"
+  },
+  {
+    "name": "Captain Marvel",
+    "year": "2019",
+    "series": "Captain Marvel",
+    "revenue": "1127.83"
+  },
+  {
+    "name": "Captain America: Civil War",
+    "year": "2016",
+    "series": "Captain America",
+    "revenue": "1153.3"
+  },
+  {
+    "name": "Black Panther",
+    "year": "2018",
+    "series": "Black Panther",
+    "revenue": "1346.91"
+  }
+]

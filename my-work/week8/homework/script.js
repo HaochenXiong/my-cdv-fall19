@@ -94,12 +94,13 @@ function gotData(incomingData){
 
     enteringGroups
       .append("circle")
-        .attr("r", 5)
+        .attr("r", 2)
     ;
     enteringGroups
       .append("text")
         .text(function(d){return d.name})
         .attr("font-size", "6px")
+        .attr("x", 5)
         .attr("font-family", "sans-serif")
       ;
 
@@ -143,6 +144,7 @@ function gotData(incomingData){
       .select("text")
         .text(function(d){return d.name})
         .attr("font-size", "6px")
+        .attr("x", 5)
         .attr("font-family", "sans-serif")
       ;
   }

@@ -1,15 +1,31 @@
-d3.json("data.json").then(gotData);
+import currentBox from "./leonScroller.js";
+// imports just one function from a different file
+// more info, import: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
+// more info, export: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export
 
-let w = 900;
-let h = 500;
+// we don't hardcode w and h this time
+// but keep them responsive
+// (see adjustVizHeight and resized function
+// that are defined at the bottom)
+let w, h;
+let heightRatio = 1;
+let padding = 90;
 let xpadding = 100;
 let ypadding = 50;
-let viz = d3.select("#container")
-  .append("svg")
-    .style("width", w)
-    .style("height", h)
-    .style("outline", "solid black")
+
+let viz = d3.select("#visualization")
+    .append("svg")
+  .style("background-color", "lavender")
 ;
+// function to adjust viz height dynamically
+// in order to keep the heightRatio at any given
+// width of the browser window
+// (function definition at the bottom)
+adjustVizHeight();
+
+
+// your script starts here, e.g. load data here.
+d3.json("data.json").then(gotData);
 
 function gotData(incomingData){
   console.log(incomingData);
@@ -76,7 +92,7 @@ function gotData(incomingData){
 
   function update(newdata){
 
-    data = newdata;
+    let data = newdata;
 
     let xDomain = d3.extent(data, function(d){ return d.year });
     xScale.domain(xDomain);
@@ -116,7 +132,7 @@ function gotData(incomingData){
       })
     ;
 
-    exitingGroups = theSituation.exit();
+    let exitingGroups = theSituation.exit();
 
     exitingGroups
 
@@ -158,42 +174,44 @@ function gotData(incomingData){
   let filteredDataOne = newData.filter(filterFunctionOne);
   console.log(filteredDataOne);
 
-  document.getElementById("buttonOne").addEventListener("click", function(){
-    update(filteredDataOne);
-  });
+// scrolling event listener
+// you might move this block into the part of your code
+// in which your data is loaded/available
+  let previousSection;
+  d3.select("#textboxes").on("scroll", function(){
+    // the currentBox function is imported on the
+    // very fist line of this script
+    currentBox(function(box){
+      console.log(box.id);
 
-  function filterFunctionTwo(d){
-    if(d.series == "Captain America"){
-      return true;
+      if(box.id=="two"){
+        console.log("changing viz");
+        // trigger a new transition
+        previousSection = box.id;
+        update(filteredDataOne);
     } else {
-    return false;
+       update(newData);
     }
-  }
+  })
+})
 
-  function animation() {
-  var id = setInterval(frame, 1);
-  console.log(window.innerHeight);
-  function frame() {
-    if (document.body.scrollTop > window.innerHeight || document.documentElement.scrollTop > window.innerHeight) {
-      clearInterval(id);
-    } else {
-      document.body.scrollTop += 10;
-      document.documentElement.scrollTop += 10;
-    }
-  }
 }
 
-  let filteredDataTwo = newData.filter(filterFunctionTwo);
-  console.log(filteredDataTwo);
 
-  document.getElementById("bigButton").addEventListener("click", animation);
 
-  document.getElementById("buttonTwo").addEventListener("click", function(){
-    update(filteredDataTwo);
-  });
 
-  document.getElementById("buttonThree").addEventListener("click", function(){
-    update(newData);
-  });
 
+// function to adjust viz height dynamically
+// in order to keep the heightRatio at any given
+// width of the browser window
+function adjustVizHeight(){
+  viz.style("height", function(){
+    w = parseInt(viz.style("width"), 10);
+    h = w*heightRatio;
+    return h;
+  })
 }
+function resized(){
+  adjustVizHeight()
+}
+window.addEventListener("resize", resized);

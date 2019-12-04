@@ -114,77 +114,68 @@ function gotData(incomingData){
   let filteredData = allData.filter(filterDataOne);
   console.log(filteredData);
 
-  var myVar = setInterval(myTimer, 10);
-  let num = 0;
-
-  function myTimer(datapoint) {
-    console.log(datapoint.length);
-    // var d = new Date();
-    let numMax = datapoint.length;
-    if (num < numMax){
-      num++;
-    }
-    return num;
-  }
-
-
-  // function getNumber(d){
-  //   setInterval(function(){
-  //     let num = 0;
-  //     if (num < d.length){
-  //       num++
-  //     }
-  //   })
-  //   console.log(d.length);
-  //   return d.length;
+  // var myVar = setInterval(myTimer, 10);
+  // let num = 0;
+  //
+  // function myTimer(datapoint) {
+  //   console.log(datapoint.length);
+  //   // var d = new Date();
+  //   let numMax = datapoint.length;
+  //   if (num < numMax){
+  //     num++;
+  //   }
+  //   return num;
   // }
 
-  let texts = vizTwo
-      .append("text")
-      .attr("id", "numberOne")
-      .attr("x", wTwo/2)
-      .attr("y", 50)
-      .text(function(){
-        console.log(myTimer(filteredData));
-      })
-  ;
 
-  filteredData.forEach(d=>{
-    d.x = wTwo/2;
-    d.y = hTwo/2;
-  })
-
-  let simulation = d3.forceSimulation(filteredData)
-    .force("forceX", d3.forceX( wTwo/2 ) )
-    .force("forceY", d3.forceY( hTwo/2 ) )
-    .force("collide", d3.forceCollide(5) )
-    .on("tick", simulationRan)
-    ;
-
-    vizTwo.selectAll(".datapoint").data(filteredData).enter()
-      .append("circle")
-      .attr("class", "datapoint")
-      .attr("cx", function(d){
-        return d.x
-      })
-      .attr("cy", function(d){
-        return d.y
-      })
-      .attr("r", 2)
-    ;
-
-  function simulationRan(){
-    // console.log("just ran the simulation");
-    // console.log(incomingData[0].y);
-    vizTwo.selectAll(".datapoint").data(filteredData)
-      .attr("cx", function(d){
-        return d.x;
-      })
-      .attr("cy", function(d){
-        return d.y;
-      })
-    ;
+  function getNumber(d){
+    return d.length;
   }
+
+  // let texts = vizTwo
+  //     .append("text")
+  //     .attr("id", "numberOne")
+  //     .attr("x", wTwo/2 - 25)
+  //     .attr("y", 50)
+  //     .text(getNumber(filteredData))
+  // ;
+
+  // filteredData.forEach(d=>{
+  //   d.x = wTwo/2;
+  //   d.y = hTwo/2;
+  // })
+  //
+  // let simulation = d3.forceSimulation(filteredData)
+  //   .force("forceX", d3.forceX( wTwo/2 ) )
+  //   .force("forceY", d3.forceY( hTwo/2 ) )
+  //   .force("collide", d3.forceCollide(5) )
+  //   .on("tick", simulationRan)
+  //   ;
+  //
+  //   vizTwo.selectAll(".datapoint").data(filteredData).enter()
+  //     .append("circle")
+  //     .attr("class", "datapoint")
+  //     .attr("cx", function(d){
+  //       return d.x
+  //     })
+  //     .attr("cy", function(d){
+  //       return d.y
+  //     })
+  //     .attr("r", 2)
+  //   ;
+  //
+  // function simulationRan(){
+  //   // console.log("just ran the simulation");
+  //   // console.log(incomingData[0].y);
+  //   vizTwo.selectAll(".datapoint").data(filteredData)
+  //     .attr("cx", function(d){
+  //       return d.x;
+  //     })
+  //     .attr("cy", function(d){
+  //       return d.y;
+  //     })
+  //   ;
+  // }
 
   // function ironManMove(){
   //
@@ -197,6 +188,17 @@ function gotData(incomingData){
     newAllData = newAllData.concat(newIncomingData);
     console.log(newAllData);
     console.log(newAllData.length);
+
+    // let texts = vizTwo
+    //     .select(".text")
+    //     .enter()
+    //     .remove()
+    //     // .enter()
+    //     // .attr("id", "numberOne")
+    //     // .attr("x", wTwo/2 - 25)
+    //     // .attr("y", 50)
+    //     // .text(getNumber(newAllData))
+    // ;
 
     newAllData.forEach(d=>{
       d.x = wTwo/2;

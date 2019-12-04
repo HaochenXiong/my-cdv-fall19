@@ -1,0 +1,452 @@
+[
+  {
+    "name": "The Avengers",
+    "revenue": 1519,
+    "heroes": [
+      {
+        "ironMan": 395
+      },
+      {
+        "captainAmerica": 228
+      },
+      {
+        "thor": 152
+      },
+      {
+        "blackWidow": 228
+      },
+      {
+        "clintBarton": 61
+      },
+      {
+        "hulk": 243
+      },
+      {
+        "spiderMan": 0
+      },
+      {
+        "thanos": 0
+      }
+    ]
+  },
+  {
+    "name": "Avengers: Age of Ultron",
+    "revenue": 1405,
+    "heroes": [
+      {
+        "ironMan": 351
+      },
+      {
+        "captainAmerica": 267
+      },
+      {
+        "thor": 112
+      },
+      {
+        "blackWidow": 155
+      },
+      {
+        "clintBarton": 141
+      },
+      {
+        "hulk": 155
+      },
+      {
+        "spiderMan": 0
+      },
+      {
+        "thanos": 0
+      }
+    ]
+  },
+  {
+    "name": "Avengers: Infinity War",
+    "revenue": 2047,
+    "heroes": [
+      {
+        "ironMan": 368
+      },
+      {
+        "captainAmerica": 61
+      },
+      {
+        "thor": 225
+      },
+      {
+        "blackWidow": 41
+      },
+      {
+        "clintBarton": 0
+      },
+      {
+        "hulk": 143
+      },
+      {
+        "spiderMan": 123
+      },
+      {
+        "thanos": 205
+      }
+    ]
+  },
+  {
+    "name": "Avengers: Endgame",
+    "revenue": 2732,
+    "heroes": [
+      {
+        "ironMan": 601
+      },
+      {
+        "captainAmerica": 410
+      },
+      {
+        "thor": 328
+      },
+      {
+        "blackWidow": 246
+      },
+      {
+        "clintBarton": 164
+      },
+      {
+        "hulk": 328
+      },
+      {
+        "spider-Man": 27
+      },
+      {
+        "thanos": 137
+      }
+    ]
+  },
+  {
+    "name": "Captian America: The First Avenger",
+    "revenue": 371,
+    "heroes": [
+      {
+        "ironMan": 0
+      },
+      {
+        "captainAmerica": 371
+      },
+      {
+        "thor": 0
+      },
+      {
+        "blackWidow": 0
+      },
+      {
+        "clintBarton": 0
+      },
+      {
+        "hulk": 0
+      },
+      {
+        "spiderMan": 0
+      },
+      {
+        "thanos": 0
+      }
+    ]
+  },
+  {
+    "name": "Captain America: The Winter Soldier",
+    "revenue": 714,
+    "heroes": [
+      {
+        "ironMan": 0
+      },
+      {
+        "captainAmerica": 386
+      },
+      {
+        "thor": 0
+      },
+      {
+        "blackWidow": 193
+      },
+      {
+        "clintBarton": 0
+      },
+      {
+        "hulk": 0
+      },
+      {
+        "spiderMan": 0
+      },
+      {
+        "thanos": 0
+      }
+    ]
+  },
+  {
+    "name": "Captain America: Civil War",
+    "revenue": 1153,
+    "heroes": [
+      {
+        "ironMan": 277
+      },
+      {
+        "captainAmerica": 242
+      },
+      {
+        "thor": 0
+      },
+      {
+        "blackWidow": 104
+      },
+      {
+        "clintBarton": 46
+      },
+      {
+        "hulk": 0
+      },
+      {
+        "spiderMan": 115
+      },
+      {
+        "thanos": 0
+      }
+    ]
+  },
+  {
+    "name": "Iron Man",
+    "revenue": 585,
+    "heroes": [
+      {
+        "ironMan": 585
+      },
+      {
+        "captainAmerica": 0
+      },
+      {
+        "thor": 0
+      },
+      {
+        "blackWidow": 0
+      },
+      {
+        "clintBarton": 0
+      },
+      {
+        "hulk": 0
+      },
+      {
+        "spiderMan": 0
+      },
+      {
+        "thanos": 0
+      }
+    ]
+  },
+  {
+    "name": "Iron Man 2",
+    "revenue": 624,
+    "heroes": [
+      {
+        "ironMan": 587
+      },
+      {
+        "captainAmerica": 0
+      },
+      {
+        "thor": 0
+      },
+      {
+        "blackWidow": 37
+      },
+      {
+        "clintBarton": 0
+      },
+      {
+        "hulk": 0
+      },
+      {
+        "spiderMan": 0
+      },
+      {
+        "thanos": 0
+      }
+    ]
+  },
+  {
+    "name": "Iron Man 3",
+    "revenue": 1215,
+    "heroes": [
+      {
+        "ironMan": 1215
+      },
+      {
+        "captainAmerica": 0
+      },
+      {
+        "thor": 0
+      },
+      {
+        "blackWidow": 0
+      },
+      {
+        "clintBarton": 0
+      },
+      {
+        "hulk": 0
+      },
+      {
+        "spiderMan": 0
+      },
+      {
+        "thanos": 0
+      }
+    ]
+  },
+  {
+    "name": "Thor",
+    "revenue": 449,
+    "heroes": [
+      {
+        "ironMan": 0
+      },
+      {
+        "captainAmerica": 0
+      },
+      {
+        "thor": 283
+      },
+      {
+        "blackWidow": 0
+      },
+      {
+        "clintBarton": 0
+      },
+      {
+        "hulk": 0
+      },
+      {
+        "spiderMan": 0
+      },
+      {
+        "thanos": 0
+      }
+    ]
+  },
+  {
+    "name": "Thor: The Dark World",
+    "revenue": 645,
+    "heroes": [
+      {
+        "ironMan": 0
+      },
+      {
+        "captainAmerica": 0
+      },
+      {
+        "thor": 232
+      },
+      {
+        "blackWidow": 0
+      },
+      {
+        "clintBarton": 0
+      },
+      {
+        "hulk": 0
+      },
+      {
+        "spiderMan": 0
+      },
+      {
+        "thanos": 0
+      }
+    ]
+  },
+  {
+    "name": "Thor: Ragnarok",
+    "revenue": 850,
+    "heroes": [
+      {
+        "ironMan": 0
+      },
+      {
+        "captainAmerica": 0
+      },
+      {
+        "thor": 561
+      },
+      {
+        "blackWidow": 0
+      },
+      {
+        "clintBarton": 0
+      },
+      {
+        "hulk": 94
+      },
+      {
+        "spiderMan": 0
+      },
+      {
+        "thanos": 0
+      }
+    ]
+  },
+  {
+    "name": "Spider-Man: Homecoming",
+    "revenue": 880,
+    "heroes": [
+      {
+        "ironMan": 123
+      },
+      {
+        "captainAmerica": 0
+      },
+      {
+        "thor": 0
+      },
+      {
+        "blackWidow": 0
+      },
+      {
+        "clintBarton": 0
+      },
+      {
+        "hulk": 0
+      },
+      {
+        "spiderMan": 880
+      },
+      {
+        "thanos": 0
+      }
+    ]
+  },
+  {
+    "name": "Spider-Man: Far From Home",
+    "revenue": 1132,
+    "heroes": [
+      {
+        "ironMan": 0
+      },
+      {
+        "captainAmerica": 0
+      },
+      {
+        "thor": 0
+      },
+      {
+        "blackWidow": 0
+      },
+      {
+        "clintBarton": 0
+      },
+      {
+        "hulk": 0
+      },
+      {
+        "spiderMan": 1132
+      },
+      {
+        "thanos": 0
+      }
+    ]
+  }
+]

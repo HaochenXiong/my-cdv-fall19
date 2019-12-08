@@ -1,0 +1,362 @@
+[
+  {
+    "name": "The Avengers",
+    "lines": 529,
+    "heroes": [
+      {
+        "ironMan": 138
+      },
+      {
+        "captainAmerica": 81
+      },
+      {
+        "thor": 53
+      },
+      {
+        "blackWidow": 77
+      },
+      {
+        "hulk": 83
+      },
+      {
+        "spiderMan": 0
+      }
+    ]
+  },
+  {
+    "name": "Avengers: Age of Ultron",
+    "lines": 725,
+    "heroes": [
+      {
+        "ironMan": 179
+      },
+      {
+        "captainAmerica": 135
+      },
+      {
+        "thor": 56
+      },
+      {
+        "blackWidow": 81
+      },
+      {
+        "hulk": 83
+      },
+      {
+        "spiderMan": 0
+      }
+    ]
+  },
+  {
+    "name": "Avengers: Infinity War",
+    "lines": 730,
+    "heroes": [
+      {
+        "ironMan": 129
+      },
+      {
+        "captainAmerica": 25
+      },
+      {
+        "thor": 79
+      },
+      {
+        "blackWidow": 15
+      },
+      {
+        "hulk": 49
+      },
+      {
+        "spiderMan": 46
+      }
+    ]
+  },
+  {
+    "name": "Avengers: Endgame",
+    "lines": 835,
+    "heroes": [
+      {
+        "ironMan": 182
+      },
+      {
+        "captainAmerica": 123
+      },
+      {
+        "thor": 102
+      },
+      {
+        "blackWidow": 71
+      },
+      {
+        "hulk": 102
+      },
+      {
+        "spider-Man": 9
+      }
+    ]
+  },
+  {
+    "name": "Captian America: The First Avenger",
+    "lines": 188,
+    "heroes": [
+      {
+        "ironMan": 0
+      },
+      {
+        "captainAmerica": 188
+      },
+      {
+        "thor": 0
+      },
+      {
+        "blackWidow": 0
+      },
+      {
+        "hulk": 0
+      },
+      {
+        "spiderMan": 0
+      }
+    ]
+  },
+  {
+    "name": "Captain America: The Winter Soldier",
+    "lines": 430,
+    "heroes": [
+      {
+        "ironMan": 0
+      },
+      {
+        "captainAmerica": 232
+      },
+      {
+        "thor": 0
+      },
+      {
+        "blackWidow": 116
+      },
+      {
+        "hulk": 0
+      },
+      {
+        "spiderMan": 0
+      }
+    ]
+  },
+  {
+    "name": "Captain America: Civil War",
+    "lines": 768,
+    "heroes": [
+      {
+        "ironMan": 184
+      },
+      {
+        "captainAmerica": 164
+      },
+      {
+        "thor": 0
+      },
+      {
+        "blackWidow": 68
+      },
+      {
+        "hulk": 0
+      },
+      {
+        "spiderMan": 73
+      }
+    ]
+  },
+  {
+    "name": "Iron Man",
+    "lines": 234,
+    "heroes": [
+      {
+        "ironMan": 234
+      },
+      {
+        "captainAmerica": 0
+      },
+      {
+        "thor": 0
+      },
+      {
+        "blackWidow": 0
+      },
+      {
+        "hulk": 0
+      },
+      {
+        "spiderMan": 0
+      }
+    ]
+  },
+  {
+    "name": "Iron Man 2",
+    "lines": 363,
+    "heroes": [
+      {
+        "ironMan": 343
+      },
+      {
+        "captainAmerica": 0
+      },
+      {
+        "thor": 0
+      },
+      {
+        "blackWidow": 20
+      },
+      {
+        "hulk": 0
+      },
+      {
+        "spiderMan": 0
+      }
+    ]
+  },
+  {
+    "name": "Iron Man 3",
+    "lines": 235,
+    "heroes": [
+      {
+        "ironMan": 235
+      },
+      {
+        "captainAmerica": 0
+      },
+      {
+        "thor": 0
+      },
+      {
+        "blackWidow": 0
+      },
+      {
+        "hulk": 0
+      },
+      {
+        "spiderMan": 0
+      }
+    ]
+  },
+  {
+    "name": "Thor",
+    "lines": 329,
+    "heroes": [
+      {
+        "ironMan": 0
+      },
+      {
+        "captainAmerica": 0
+      },
+      {
+        "thor": 207
+      },
+      {
+        "blackWidow": 0
+      },
+      {
+        "hulk": 0
+      },
+      {
+        "spiderMan": 0
+      }
+    ]
+  },
+  {
+    "name": "Thor: The Dark World",
+    "lines": 140,
+    "heroes": [
+      {
+        "ironMan": 0
+      },
+      {
+        "captainAmerica": 0
+      },
+      {
+        "thor": 52
+      },
+      {
+        "blackWidow": 0
+      },
+      {
+        "hulk": 0
+      },
+      {
+        "spiderMan": 0
+      }
+    ]
+  },
+  {
+    "name": "Thor: Ragnarok",
+    "lines": 378,
+    "heroes": [
+      {
+        "ironMan": 0
+      },
+      {
+        "captainAmerica": 0
+      },
+      {
+        "thor": 250
+      },
+      {
+        "blackWidow": 0
+      },
+      {
+        "hulk": 43
+      },
+      {
+        "spiderMan": 0
+      }
+    ]
+  },
+  {
+    "name": "Spider-Man: Homecoming",
+    "lines": 661,
+    "heroes": [
+      {
+        "ironMan": 90
+      },
+      {
+        "captainAmerica": 0
+      },
+      {
+        "thor": 0
+      },
+      {
+        "blackWidow": 0
+      },
+      {
+        "hulk": 0
+      },
+      {
+        "spiderMan": 571
+      }
+    ]
+  },
+  {
+    "name": "Spider-Man: Far From Home",
+    "lines": 119,
+    "heroes": [
+      {
+        "ironMan": 0
+      },
+      {
+        "captainAmerica": 0
+      },
+      {
+        "thor": 0
+      },
+      {
+        "blackWidow": 0
+      },
+      {
+        "hulk": 0
+      },
+      {
+        "spiderMan": 1132
+      }
+    ]
+  }
+]

@@ -43,7 +43,7 @@ body {
   top:0;
 }
 
-h1 {
+.bigTitle {
   font: 400 100px/1.3 'Oleo Script', Helvetica, sans-serif;
   color: #2b2b2b;
   text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
@@ -57,11 +57,13 @@ h1 {
   color: #2b2b2b;
   margin: 20px 200px;
   line-height: 2;
+  text-align: left;
 }
 
 .pTwo{
   font: 400 30px/1.3 'Oleo Script', Helvetica, sans-serif;
   color: #2b2b2b;
+  margin: 20px 200px;
 }
 
 .pThree{
@@ -69,6 +71,7 @@ h1 {
   color: #2b2b2b;
   margin: 20px 200px;
   line-height: 2;
+  text-align: left;
 }
 
 
@@ -80,11 +83,11 @@ section {
 
 #thirdSectionEl{
   position: relative;
-  top: 8%;
+  top: 0%;
 }
 
 #movieContainer{
-  margin: 5px 150px;
+  margin: 0px 150px;
   /* margin-top: 5px; */
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -104,15 +107,45 @@ section {
   cursor: pointer;
 }
 
-#ironMan{
+.sups{
   opacity: 0.5;
   transition: opacity 0.5s;
 }
 
-#ironMan:hover{
+.sups:hover{
   opacity: 1;
   transition: opacity 0.5s;
   cursor: pointer;
+}
+
+#ironMan:hover + #ironManText{
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+#captain:hover + #CaptainAmericaText{
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+#spiderMan:hover + #spiderManText{
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+#hulk:hover + #hulkText{
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+#thor:hover + #thorText{
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+#blackWidow:hover + #blackWidowText{
+  opacity: 1;
+  transition: opacity 0.5s;
 }
 
 /* .datapoint{
@@ -121,5 +154,73 @@ section {
 
 #numberOne{
   font: 400 30px/1.3 'Oleo Script', Helvetica, sans-serif;
+  color: #2b2b2b;
+  position: absolute;
+}
+
+#numberTwo{
+  font: 400 25px/1.3 'Oleo Script', Helvetica, sans-serif;
+  color: #2b2b2b;
+  position: absolute;
+}
+
+#numberThree{
+  font: 400 15px/1.3 'Oleo Script', Helvetica, sans-serif;
+  color: #2b2b2b;
+  position: absolute;
+}
+
+#numberFour{
+  font: 400 15px/1.3 'Oleo Script', Helvetica, sans-serif;
+  color: #2b2b2b;
+  position: absolute;
+  opacity: 0.5;
+  transition: opacity 0.5s;
+}
+
+#numberFour:hover{
+  opacity: 1;
+  transition: opacity 0.5s;
+  cursor: pointer;
+}
+
+.textGroup{
+  font: 400 15px/1.3 'Oleo Script', Helvetica, sans-serif;
+  color: #2b2b2b;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+/* #proportionPage{
+  width: 300;
+  height: 300;
+} */
+
+#fourthSectionContainer{
+  position: relative;
+  top: 0%;
+}
+
+#fifthSectionContainer{
+  position: relative;
+  top: 40%;
+}
+
+.lineTitle{
+  font: 400 30px/1.3 'Oleo Script', Helvetica, sans-serif;
+  color: #2b2b2b;
+  margin: 0;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.5s;
+}
+
+.lineTitle:hover{
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.textGroupTwo{
+  font: 400 15px/1.3 'Oleo Script', Helvetica, sans-serif;
   color: #2b2b2b;
 }

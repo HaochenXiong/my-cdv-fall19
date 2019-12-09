@@ -26,6 +26,8 @@ Two visualization are included in my project.
 
 ### 1️⃣ Renvenue Proportion
 
-Here you can see the renvenue of several superhero that has been calculated from the Robert Theory. 
+Here you can see the renvenue of several superhero that has been calculated from the Robert Theory.
+
+![pageOne](https://github.com/HaochenXiong/my-cdv-fall19/blob/master/my-work/final%20project/PageOne.gif)
 
 ### 2️⃣ Lines Proportion

@@ -26,7 +26,7 @@ Two visualization are included in my project.
 
 ### 1️⃣ Renvenue Proportion
 
-Here you can see the renvenue of several superhero that has been calculated from the Robert Theory.
+On the third page you can see the renvenue of several superhero that has been calculated from the Robert Theory. One circle stands for one mllion dollar.
 
 ![picOne](https://github.com/HaochenXiong/my-cdv-fall19/blob/master/my-work/final%20project/picOne.jpg)
 
@@ -35,3 +35,7 @@ Here you can see the renvenue of several superhero that has been calculated from
 ![pageOneTwo](https://github.com/HaochenXiong/my-cdv-fall19/blob/master/my-work/final%20project/pageOneTwo.gif)
 
 ### 2️⃣ Lines Proportion
+
+On the fourth page you can see the number of lines that several superheroes said in different movies. One circle stands for one single line and each superhero has his own color.
+
+![pageTwo](https://github.com/HaochenXiong/my-cdv-fall19/blob/master/my-work/final%20project/pageTwo.gif)

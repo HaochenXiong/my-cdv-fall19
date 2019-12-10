@@ -32,4 +32,6 @@ Here you can see the renvenue of several superhero that has been calculated from
 
 ![pageOne](https://github.com/HaochenXiong/my-cdv-fall19/blob/master/my-work/final%20project/PageOne.gif)
 
+![pageOneTwo](https://github.com/HaochenXiong/my-cdv-fall19/blob/master/my-work/final%20project/pageOneTwo.gif)
+
 ### 2️⃣ Lines Proportion

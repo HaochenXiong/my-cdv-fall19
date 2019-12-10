@@ -28,7 +28,7 @@ Two visualization are included in my project.
 
 Here you can see the renvenue of several superhero that has been calculated from the Robert Theory.
 
-![PdfOne](https://github.com/HaochenXiong/my-cdv-fall19/blob/master/my-work/final%20project/PdfOne.pdf)
+![picOne](https://github.com/HaochenXiong/my-cdv-fall19/blob/master/my-work/final%20project/picOne.jpg)
 
 ![pageOne](https://github.com/HaochenXiong/my-cdv-fall19/blob/master/my-work/final%20project/PageOne.gif)
 
